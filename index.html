@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sportsbet - Horse Racing Odds</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/moment.min.js"></script>
+    </head>
+    <body>
+        <!-- Add your site or application content here -->
+        <header class="l-header">
+            <div class="logo"></div>
+        </header>
+        <div class="l-main">
+            <h1 class="title">Horse Racing Odds</h1>
+            <h2 class="subtitle"></h2>
+            <select id="venue-filter" onchange="filterByVenue()">
+                <option value="default">- Filter by venue -</option>
+                <option value="all">All Venues</option>
+            </select>
+            <span class="message">Loading...</span>
+            <div id="events"></div>
+        </div>
+        <footer class="l-footer">Copyright &copy Sportsbet Technical Test</footer>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/parser.js"></script>
+        <script src="js/main.js"></script>
+        <script src="http://affiliate.sportsbet.com.au/xmlfeeds/Racing.jsnp"></script>
+    </body>
+</html>
