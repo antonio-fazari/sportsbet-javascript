@@ -1,3 +1,3 @@
 ## Sportsbet Javascript
 
-Displays data collected form the Sportsbet API using vanilla javascript
+Displays data collected from the Sportsbet API using vanilla javascript.
